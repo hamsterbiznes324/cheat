@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tgdesktop",
+  "version": "${version}",
+  "name": "TG Desktop",
+  "description": "Плавающие окна в стиле iOS прямо в Minecraft: Telegram, Discord, YouTube и браузер. Окна перетаскиваются, снизу — док и домашняя полоска.",
+  "authors": ["TG Desktop"],
+  "license": "MIT",
+  "icon": "assets/tgdesktop/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.tgdesktop.TGDesktopClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "fabric-api": ">=0.140.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "rinku": ">=3.0.1"
+  }
+}
